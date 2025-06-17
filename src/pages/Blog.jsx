@@ -52,14 +52,14 @@ const Blog = () => {
         </p>
       </div>
 
-      <div className="mx-5 max-w-5xl md:mx-auto my-10 mt-6">
-        <img src={data.image} className="rounded-3xl mb-5" />
+      <div className="mx-5 max-w-5xl sm:mx-auto my-10 mt-6">
+        <img src={data.image} className="rounded-3xl mb-5 sm:px-10" />
         <div
-          className="rich-text max-w-3xl mx-auto"
+          className="rich-text max-w-3xl mx-auto sm:px-10"
           dangerouslySetInnerHTML={{ __html: data.description }}
         ></div>
         {/* Comment Section */}
-        <div className="mt-14 mb-10 max-w-3xl mx-auto">
+        <div className="mt-14 mb-10 max-w-3xl mx-auto sm:px-30 md:px-10">
           <p className="font-semibold mb-4">Comments ({comments.length})</p>
           <div className="flex flex-col gap-4">
             {comments.map((item, index) => (
@@ -80,7 +80,7 @@ const Blog = () => {
           </div>
         </div>
         {/* Add Comment Section */}
-        <div className="max-w-3xl mx-auto">
+        <div className="max-w-3xl mx-auto sm:px-30 md:px-10">
           <p className="font-semibold mb-4"> Add your comment</p>
           <form
             onSubmit={addComment}
@@ -110,7 +110,7 @@ const Blog = () => {
           </form>
         </div>
         {/* Share Buttons */}
-        <div className="my-24 max-w-3xl mx-auto">
+        <div className="my-24 max-w-3xl mx-auto sm:px-30 md:px-10">
             <p className="font-semibold my-4">Share this article on social media</p>
             <div className="flex">
               <img className="hover:-translate-y-1 transition-transform duration-200 cursor-pointer" src={assets.facebook_icon}/>
