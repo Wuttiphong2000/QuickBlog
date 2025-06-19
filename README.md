@@ -1,12 +1,24 @@
-# React + Vite
+# QuickBlog ✍️
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A Full-stack blog web application built with React, Node.js, Express, and MongoDB.
 
-Currently, two official plugins are available:
+## Features
+- User authentication (Login / Logout)
+- Create, Read, Update, Delete blog posts
+- comment, deleteComment, approve comment
+- Admin dashboard
+- Toast notifications
+- Responsive design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- Frontend: React, TailwindCSS, React Router
+- Backend: Node.js, Express, MongoDB, JWT
+- State Management: React Context
+- Hosting: Vercel (Frontend), Render (Backend), MongoDB Atlas (Database)
 
-## Expanding the ESLint configuration
+## Live Demo
+👉 [Click here to try it out]([https://your-deployed-site.vercel.app](https://quick-blog-by-wuttiphong-git-main-wuttiphongs-projects.vercel.app/))
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Screenshots
+![Home Page](./screenshots/home.png)
+![Dashboard](./screenshots/dashboard.png)
